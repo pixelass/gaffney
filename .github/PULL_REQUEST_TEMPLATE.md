@@ -8,12 +8,12 @@
 
 ## Compatibility tests
 
-[ ] All tests pass
-[ ] New test were written
+- [ ] All tests pass  
+- [ ]  New test were written
 
 
 ## Intended version
 
-[ ] Patch
-[ ] Minor
-[ ] Major
+- [ ] Patch
+- [ ] Minor
+- [ ] Major
