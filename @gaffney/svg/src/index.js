@@ -15,7 +15,7 @@ const xmlns = 'http://www.w3.org/2000/svg'
  *   The value for the `d` attribute of an `svg path` and the size
  *   as properties in an object `{d, size}`
  */
-const crescentShape = ({progress, size = 60}) => {
+const crescentShape = ({progress = 0, size = 60}) => {
   const r2 = progress * 2
   const sH = size / 2
   const sQ = size / 4
@@ -58,7 +58,8 @@ const crescentShape = ({progress, size = 60}) => {
  * @return {String}
  *   The final SVG as a string (`<svg [...]>[...]</svg>`)
  */
-const svgString = ({d, size = 60}) => `
+const svgString = ({d = '', size = 60}) =>
+  `
 <svg xmlns="${xmlns}" viewBox="0 0 ${size} ${size}">
   <g stroke="var(--gaffney-svg-moon-fill-0, #000)"
      stroke-width="1"
@@ -76,6 +77,9 @@ const svgString = ({d, size = 60}) => `
   </g>
 </svg>
 `
+    .replace(/\s+/g, ' ')
+    .replace(/[>]\s+[<]/g, '><')
+    .trim()
 
 /**
  * Lazy attribute setter for SVG elements.
