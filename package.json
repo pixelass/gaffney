@@ -13,6 +13,7 @@
     "clean": "lerna clean",
     "clean": "lerna clean",
     "commitmsg": "commitlint -e $GIT_PARAMS",
+    "prepush": "lerna run test",
     "format:js": "lerna run format:js",
     "build": "webpack",
     "watch": "webpack-dev-server"
