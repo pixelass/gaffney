@@ -1,0 +1,42 @@
+{
+  "name": "gaffney",
+  "version": "0.1.0",
+  "description": "A calendar API with lunar and astrological data.",
+  "repository": "git@github.com:pixelass/gaffney.git",
+  "author": "Gregor Adams <greg@pixelass.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "babel": "lerna run babel",
+    "babel:watch": "lerna run babel:watch --parallel",
+    "clean": "lerna clean",
+    "clean": "lerna clean",
+    "format:js": "lerna run format:js",
+    "build": "webpack",
+    "watch": "webpack-dev-server"
+  },
+  "browserslist": [
+    "last 2 chrome versions",
+    "last 2 firefox versions",
+    "last 2 safari versions",
+    "last 2 edge versions"
+  ],
+  "workspaces": [
+    "@gaffney/*"
+  ],
+  "devDependencies": {
+    "@commitlint/cli": "^6.0.2",
+    "@commitlint/config-conventional": "^6.0.2",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "cross-env": "^5.1.3",
+    "husky": "^0.14.3",
+    "lerna": "^2.5.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1"
+  }
+}
