@@ -12,6 +12,7 @@
     "babel:watch": "lerna run babel:watch --parallel",
     "clean": "lerna clean",
     "clean": "lerna clean",
+    "commitmsg": "commitlint -e $GIT_PARAMS",
     "format:js": "lerna run format:js",
     "build": "webpack",
     "watch": "webpack-dev-server"
