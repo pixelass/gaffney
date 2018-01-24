@@ -1,0 +1,1949 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "@gaffney/.external-ecmascript.js",
+    "static": true,
+    "longname": "@gaffney/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "@gaffney/.external-ecmascript.js",
+    "static": true,
+    "longname": "@gaffney/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "@gaffney/.external-ecmascript.js",
+    "static": true,
+    "longname": "@gaffney/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "@gaffney/.external-ecmascript.js",
+    "static": true,
+    "longname": "@gaffney/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "@gaffney/.external-ecmascript.js",
+    "static": true,
+    "longname": "@gaffney/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "@gaffney/.external-ecmascript.js",
+    "static": true,
+    "longname": "@gaffney/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "@gaffney/.external-ecmascript.js",
+    "static": true,
+    "longname": "@gaffney/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "@gaffney/.external-ecmascript.js",
+    "static": true,
+    "longname": "@gaffney/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "@gaffney/.external-ecmascript.js",
+    "static": true,
+    "longname": "@gaffney/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "@gaffney/.external-ecmascript.js",
+    "static": true,
+    "longname": "@gaffney/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "@gaffney/.external-ecmascript.js",
+    "static": true,
+    "longname": "@gaffney/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "@gaffney/.external-ecmascript.js",
+    "static": true,
+    "longname": "@gaffney/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "@gaffney/.external-ecmascript.js",
+    "static": true,
+    "longname": "@gaffney/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "@gaffney/.external-ecmascript.js",
+    "static": true,
+    "longname": "@gaffney/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "@gaffney/.external-ecmascript.js",
+    "static": true,
+    "longname": "@gaffney/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "@gaffney/.external-ecmascript.js",
+    "static": true,
+    "longname": "@gaffney/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "@gaffney/.external-ecmascript.js",
+    "static": true,
+    "longname": "@gaffney/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "@gaffney/.external-ecmascript.js",
+    "static": true,
+    "longname": "@gaffney/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "@gaffney/.external-ecmascript.js",
+    "static": true,
+    "longname": "@gaffney/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "@gaffney/.external-ecmascript.js",
+    "static": true,
+    "longname": "@gaffney/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "@gaffney/.external-ecmascript.js",
+    "static": true,
+    "longname": "@gaffney/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "@gaffney/.external-ecmascript.js",
+    "static": true,
+    "longname": "@gaffney/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "@gaffney/.external-ecmascript.js",
+    "static": true,
+    "longname": "@gaffney/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "@gaffney/.external-ecmascript.js",
+    "static": true,
+    "longname": "@gaffney/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "@gaffney/.external-ecmascript.js",
+    "static": true,
+    "longname": "@gaffney/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "@gaffney/.external-ecmascript.js",
+    "static": true,
+    "longname": "@gaffney/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "@gaffney/.external-ecmascript.js",
+    "static": true,
+    "longname": "@gaffney/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "@gaffney/.external-ecmascript.js",
+    "static": true,
+    "longname": "@gaffney/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "@gaffney/.external-ecmascript.js",
+    "static": true,
+    "longname": "@gaffney/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "@gaffney/.external-ecmascript.js",
+    "static": true,
+    "longname": "@gaffney/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "@gaffney/.external-ecmascript.js",
+    "static": true,
+    "longname": "@gaffney/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "@gaffney/.external-ecmascript.js",
+    "static": true,
+    "longname": "@gaffney/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "@gaffney/.external-ecmascript.js",
+    "static": true,
+    "longname": "@gaffney/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "@gaffney/.external-ecmascript.js",
+    "static": true,
+    "longname": "@gaffney/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "@gaffney/.external-ecmascript.js",
+    "static": true,
+    "longname": "@gaffney/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "@gaffney/.external-ecmascript.js",
+    "static": true,
+    "longname": "@gaffney/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "@gaffney/.external-ecmascript.js",
+    "static": true,
+    "longname": "@gaffney/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "@gaffney/.external-ecmascript.js",
+    "static": true,
+    "longname": "@gaffney/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "@gaffney/.external-ecmascript.js",
+    "static": true,
+    "longname": "@gaffney/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "@gaffney/.external-ecmascript.js",
+    "static": true,
+    "longname": "@gaffney/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "@gaffney/.external-ecmascript.js",
+    "static": true,
+    "longname": "@gaffney/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "@gaffney/.external-ecmascript.js",
+    "static": true,
+    "longname": "@gaffney/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "@gaffney/.external-ecmascript.js",
+    "static": true,
+    "longname": "@gaffney/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "@gaffney/.external-ecmascript.js",
+    "static": true,
+    "longname": "@gaffney/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "@gaffney/.external-ecmascript.js",
+    "static": true,
+    "longname": "@gaffney/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "@gaffney/.external-ecmascript.js",
+    "static": true,
+    "longname": "@gaffney/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "@gaffney/.external-ecmascript.js",
+    "static": true,
+    "longname": "@gaffney/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "@gaffney/calendar/src/index.js",
+    "content": "",
+    "static": true,
+    "longname": "/Users/greada/Documents/workspace/private/gaffney/@gaffney/calendar/src/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "file",
+    "name": "@gaffney/calendar/test/index.js",
+    "content": "import test from 'ava'\nimport calendar from '../src'\n\ntest('calendar', t => {\n  t.pass()\n})\n",
+    "static": true,
+    "longname": "/Users/greada/Documents/workspace/private/gaffney/@gaffney/calendar/test/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 50,
+    "kind": "file",
+    "name": "@gaffney/conway/src/index.js",
+    "content": "import {floor, parseInteger as int} from '@gaffney/utils'\n\nconst conway = (year, month, day) => {\n  let r = year % 100\n  r %= 19\n  if (r > 9) {\n    r -= 19\n  }\n  r = (r * 11) % 30 + int(month) + int(day)\n  if (month < 3) {\n    r += 2\n  }\n  r -= year < 2000 ? 4 : 8.3\n  r = floor(r + 0.5) % 30\n  return r < 0 ? r + 30 : r\n}\n\nexport default conway\n",
+    "static": true,
+    "longname": "/Users/greada/Documents/workspace/private/gaffney/@gaffney/conway/src/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 51,
+    "kind": "function",
+    "name": "conway",
+    "memberof": "@gaffney/conway/src/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "@gaffney/conway/src/index.js~conway",
+    "access": "public",
+    "export": true,
+    "importPath": "@gaffney/conway",
+    "importStyle": "conway",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "params": [
+      {
+        "name": "year",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "month",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "day",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 52,
+    "kind": "file",
+    "name": "@gaffney/conway/test/index.js",
+    "content": "import test from 'ava'\nimport conway from '../src'\n\ntest('conway', t => {\n  t.pass()\n})\n",
+    "static": true,
+    "longname": "/Users/greada/Documents/workspace/private/gaffney/@gaffney/conway/test/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 53,
+    "kind": "file",
+    "name": "@gaffney/date/src/index.js",
+    "content": "const date = (...args) => new Date(...args)\nconst getTime = (...args) => date(...args).getTime()\nconst getDate = (...args) => date(...args).getDate()\nconst getMonth = (...args) => date(...args).getMonth()\nconst getFullYear = (...args) => date(...args).getFullYear()\nconst getDay = (...args) => date(...args).getDay()\n\n/**\n * All months in english\n *\n * @type {Array}\n */\nconst monthNames = [\n  'January',\n  'February',\n  'March',\n  'April',\n  'May',\n  'June',\n  'July',\n  'August',\n  'Septmber',\n  'October',\n  'November',\n  'December'\n]\n\n/**\n * All days in english\n * First day: sunday\n *\n * @type {Array}\n */\nconst dayNames = [\n  'Sunday',\n  'Monday',\n  'Tuesday',\n  'Wednesday',\n  'Thursday',\n  'Friday',\n  'Saturday'\n]\n\n/**\n * Gets the monday.\n *\n * @return {number}\n *   The nth day in the week (zero based).\n */\nconst getMonday = () => {\n  const today = new Date()\n  const day = getDay()\n  const diff = getDate() - day + (day == 0 ? -6 : 1)\n  return new Date(today.setDate(diff)).getDay()\n}\n\n// Ensure correct monday for timezone\n// This might cause issues.\n// @todo create a package for timezones?\nif (getMonday() === 0) {\n  const [sun] = dayNames\n  dayNames.shift()\n  dayNames.push(sun)\n}\n\n/**\n * Object containing different length names of the months\n *\n * @type {<type>}\n */\nconst months = {\n  long: monthNames,\n  short: monthNames.map(x => x.substr(0, 3)),\n  initial: monthNames.map(x => x[0])\n}\n\n/**\n * Object containing different length names of the days\n *\n * @type {Object}\n */\nconst days = {\n  long: dayNames,\n  short: dayNames.map(x => x.substr(0, 3)),\n  initial: dayNames.map(x => x[0])\n}\n\nexport {date, getDate, getDay, getMonth, getFullYear, months, days}\n",
+    "static": true,
+    "longname": "/Users/greada/Documents/workspace/private/gaffney/@gaffney/date/src/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 54,
+    "kind": "function",
+    "name": "getTime",
+    "memberof": "@gaffney/date/src/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "@gaffney/date/src/index.js~getTime",
+    "access": "public",
+    "export": false,
+    "importPath": "@gaffney/date",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true,
+    "params": [
+      {
+        "name": "args",
+        "types": [
+          "...*"
+        ],
+        "spread": true
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 55,
+    "kind": "variable",
+    "name": "monthNames",
+    "memberof": "@gaffney/date/src/index.js",
+    "static": true,
+    "longname": "@gaffney/date/src/index.js~monthNames",
+    "access": "public",
+    "export": false,
+    "importPath": "@gaffney/date",
+    "importStyle": null,
+    "description": "All months in english",
+    "lineNumber": 13,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Array"
+      ],
+      "spread": false,
+      "description": null
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 56,
+    "kind": "variable",
+    "name": "dayNames",
+    "memberof": "@gaffney/date/src/index.js",
+    "static": true,
+    "longname": "@gaffney/date/src/index.js~dayNames",
+    "access": "public",
+    "export": false,
+    "importPath": "@gaffney/date",
+    "importStyle": null,
+    "description": "All days in english\nFirst day: sunday",
+    "lineNumber": 34,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Array"
+      ],
+      "spread": false,
+      "description": null
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 57,
+    "kind": "function",
+    "name": "getMonday",
+    "memberof": "@gaffney/date/src/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "@gaffney/date/src/index.js~getMonday",
+    "access": "public",
+    "export": false,
+    "importPath": "@gaffney/date",
+    "importStyle": null,
+    "description": "Gets the monday.",
+    "lineNumber": 50,
+    "return": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": "The nth day in the week (zero based)."
+    },
+    "params": [],
+    "ignore": true
+  },
+  {
+    "__docId__": 58,
+    "kind": "function",
+    "name": "date",
+    "memberof": "@gaffney/date/src/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "@gaffney/date/src/index.js~date",
+    "access": "public",
+    "export": true,
+    "importPath": "@gaffney/date",
+    "importStyle": "{date}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "params": [
+      {
+        "name": "args",
+        "types": [
+          "...*"
+        ],
+        "spread": true
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 59,
+    "kind": "function",
+    "name": "getDate",
+    "memberof": "@gaffney/date/src/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "@gaffney/date/src/index.js~getDate",
+    "access": "public",
+    "export": true,
+    "importPath": "@gaffney/date",
+    "importStyle": "{getDate}",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "params": [
+      {
+        "name": "args",
+        "types": [
+          "...*"
+        ],
+        "spread": true
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 60,
+    "kind": "function",
+    "name": "getDay",
+    "memberof": "@gaffney/date/src/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "@gaffney/date/src/index.js~getDay",
+    "access": "public",
+    "export": true,
+    "importPath": "@gaffney/date",
+    "importStyle": "{getDay}",
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true,
+    "params": [
+      {
+        "name": "args",
+        "types": [
+          "...*"
+        ],
+        "spread": true
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 61,
+    "kind": "function",
+    "name": "getMonth",
+    "memberof": "@gaffney/date/src/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "@gaffney/date/src/index.js~getMonth",
+    "access": "public",
+    "export": true,
+    "importPath": "@gaffney/date",
+    "importStyle": "{getMonth}",
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "params": [
+      {
+        "name": "args",
+        "types": [
+          "...*"
+        ],
+        "spread": true
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 62,
+    "kind": "function",
+    "name": "getFullYear",
+    "memberof": "@gaffney/date/src/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "@gaffney/date/src/index.js~getFullYear",
+    "access": "public",
+    "export": true,
+    "importPath": "@gaffney/date",
+    "importStyle": "{getFullYear}",
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "params": [
+      {
+        "name": "args",
+        "types": [
+          "...*"
+        ],
+        "spread": true
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 63,
+    "kind": "variable",
+    "name": "months",
+    "memberof": "@gaffney/date/src/index.js",
+    "static": true,
+    "longname": "@gaffney/date/src/index.js~months",
+    "access": "public",
+    "export": true,
+    "importPath": "@gaffney/date",
+    "importStyle": "{months}",
+    "description": "Object containing different length names of the months",
+    "lineNumber": 71,
+    "type": {
+      "nullable": null,
+      "types": [
+        "<type>"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 64,
+    "kind": "variable",
+    "name": "days",
+    "memberof": "@gaffney/date/src/index.js",
+    "static": true,
+    "longname": "@gaffney/date/src/index.js~days",
+    "access": "public",
+    "export": true,
+    "importPath": "@gaffney/date",
+    "importStyle": "{days}",
+    "description": null,
+    "lineNumber": 82,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{\"long\": *, \"short\": *, \"initial\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 65,
+    "kind": "file",
+    "name": "@gaffney/date/test/index.js",
+    "content": "import test from 'ava'\nimport date from '../src'\n\ntest('date', t => {\n  t.pass()\n})\n",
+    "static": true,
+    "longname": "/Users/greada/Documents/workspace/private/gaffney/@gaffney/date/test/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 66,
+    "kind": "file",
+    "name": "@gaffney/gaffney/src/index.js",
+    "content": "import trig2 from '@gaffney/trig2'\n\nconst defaultOptions = {}\n\nclass Gaffney {\n  constructor(options = {}) {\n    this.options = {\n      ...defaultOptions,\n      ...options\n    }\n  }\n  trig2(...args) {\n    return trig2(...args)\n  }\n}\n\nexport default Gaffney\n",
+    "static": true,
+    "longname": "/Users/greada/Documents/workspace/private/gaffney/@gaffney/gaffney/src/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 67,
+    "kind": "variable",
+    "name": "defaultOptions",
+    "memberof": "@gaffney/gaffney/src/index.js",
+    "static": true,
+    "longname": "@gaffney/gaffney/src/index.js~defaultOptions",
+    "access": "public",
+    "export": false,
+    "importPath": "@gaffney/gaffney",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{}"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 68,
+    "kind": "class",
+    "name": "Gaffney",
+    "memberof": "@gaffney/gaffney/src/index.js",
+    "static": true,
+    "longname": "@gaffney/gaffney/src/index.js~Gaffney",
+    "access": "public",
+    "export": true,
+    "importPath": "@gaffney/gaffney",
+    "importStyle": "Gaffney",
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "interface": false
+  },
+  {
+    "__docId__": 69,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "@gaffney/gaffney/src/index.js~Gaffney",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "@gaffney/gaffney/src/index.js~Gaffney#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true
+  },
+  {
+    "__docId__": 70,
+    "kind": "member",
+    "name": "options",
+    "memberof": "@gaffney/gaffney/src/index.js~Gaffney",
+    "static": false,
+    "longname": "@gaffney/gaffney/src/index.js~Gaffney#options",
+    "access": "public",
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{...defaultOptions: Object, ...options: Object}"
+      ]
+    }
+  },
+  {
+    "__docId__": 71,
+    "kind": "method",
+    "name": "trig2",
+    "memberof": "@gaffney/gaffney/src/index.js~Gaffney",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "@gaffney/gaffney/src/index.js~Gaffney#trig2",
+    "access": "public",
+    "description": null,
+    "lineNumber": 12,
+    "undocument": true,
+    "params": [
+      {
+        "name": "args",
+        "types": [
+          "...*"
+        ],
+        "spread": true
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 72,
+    "kind": "file",
+    "name": "@gaffney/gaffney/test/index.js",
+    "content": "import test from 'ava'\nimport Gaffney from '../src'\n\ntest('Gaffney', t => {\n  t.pass()\n})\n",
+    "static": true,
+    "longname": "/Users/greada/Documents/workspace/private/gaffney/@gaffney/gaffney/test/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 73,
+    "kind": "file",
+    "name": "@gaffney/julian-day/src/index.js",
+    "content": "import {floor, parseInteger as int} from '@gaffney/utils'\n\nconst julianDay = (year, month, day) => {\n  let y = year\n  if (y < 0) {\n    y++\n  }\n  let jy = int(y)\n  let jm = int(month) + 1\n  if (month <= 2) {\n    jy--\n    jm += 12\n  }\n  let jul = floor(365.25 * jy) + floor(30.6001 * jm) + int(day) + 1720995\n  if (day + 31 * (month + 12 * y) >= 15 + 31 * (0 + 12 * 1582)) {\n    const ja = floor(0.01 * jy)\n    jul = jul + 2 - ja + floor(0.25 * ja)\n  }\n  return jul\n}\n\nexport default julianDay\n",
+    "static": true,
+    "longname": "/Users/greada/Documents/workspace/private/gaffney/@gaffney/julian-day/src/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 74,
+    "kind": "function",
+    "name": "julianDay",
+    "memberof": "@gaffney/julian-day/src/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "@gaffney/julian-day/src/index.js~julianDay",
+    "access": "public",
+    "export": true,
+    "importPath": "@gaffney/julian-day",
+    "importStyle": "julianDay",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "params": [
+      {
+        "name": "year",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "month",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "day",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 75,
+    "kind": "file",
+    "name": "@gaffney/julian-day/test/index.js",
+    "content": "import test from 'ava'\nimport julianDay from '../src'\n\ntest('julianDay', t => {\n  t.pass()\n})\n",
+    "static": true,
+    "longname": "/Users/greada/Documents/workspace/private/gaffney/@gaffney/julian-day/test/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 76,
+    "kind": "file",
+    "name": "@gaffney/moon-phase/src/index.js",
+    "content": "",
+    "static": true,
+    "longname": "/Users/greada/Documents/workspace/private/gaffney/@gaffney/moon-phase/src/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 77,
+    "kind": "file",
+    "name": "@gaffney/moon-phase/test/index.js",
+    "content": "import test from 'ava'\nimport moonPhase from '../src'\n\ntest('moonPhase', t => {\n  t.pass()\n})\n",
+    "static": true,
+    "longname": "/Users/greada/Documents/workspace/private/gaffney/@gaffney/moon-phase/test/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 78,
+    "kind": "file",
+    "name": "@gaffney/simple/src/index.js",
+    "content": "import {floor} from '@gaffney/utils'\nimport date from '@gaffney/date'\n\nconst simple = (year, month, day) => {\n  const lunarPhase = 2551443\n  const now = date(year, month, day, 20, 35, 0)\n  const newMoon = date(1970, 0, 7, 20, 35, 0)\n  const phase = ((now.getTime() - newMoon.getTime()) / 1000) % lunarPhase\n  return floor(phase / 86400)\n}\n\nexport default simple\n",
+    "static": true,
+    "longname": "/Users/greada/Documents/workspace/private/gaffney/@gaffney/simple/src/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 79,
+    "kind": "function",
+    "name": "simple",
+    "memberof": "@gaffney/simple/src/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "@gaffney/simple/src/index.js~simple",
+    "access": "public",
+    "export": true,
+    "importPath": "@gaffney/simple",
+    "importStyle": "simple",
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "params": [
+      {
+        "name": "year",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "month",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "day",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 80,
+    "kind": "file",
+    "name": "@gaffney/simple/test/index.js",
+    "content": "import test from 'ava'\nimport simple from '../src'\n\ntest('simple', t => {\n  t.pass()\n})\n",
+    "static": true,
+    "longname": "/Users/greada/Documents/workspace/private/gaffney/@gaffney/simple/test/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 81,
+    "kind": "file",
+    "name": "@gaffney/svg/src/index.js",
+    "content": "/* global document */\n/**\n * SVG tools for Gaffney\n * @file svg/src/index.js\n * @author Gregor Adams <greg@pixelass.com>\n */\n\nimport {abs, floor} from '@gaffney/utils'\n\n/**\n * XML namespace for SVG elements\n *\n * @type {string}\n */\nconst XMLNS = 'http://www.w3.org/2000/svg'\n\n/**\n * Creates a cresent path for the moon svg.\n * The shape is based on the moon phases (0 - 29).\n * The size can be adjusted but it is recommended to keep the size at 60.\n *\n * @param  {Object} options\n *   Object of options\n * @param  {number} options.progress\n *   The progress of the crescent (default: 0 - 29 as integer)\n * @param  {number} options.size\n *   The size of the viewBox (square)\n * @return {Object}\n *   The value for the `d` attribute of an `svg path` and the size\n *   as properties in an object `{d, size}`\n */\nconst crescentShape = ({progress = 0, size = 60}) => {\n  const defaultRadius = 30\n  const sH = size / 2\n  const sQ = size / 4\n  const p = (sQ + progress / defaultRadius * sH) % sH\n  const r2 = p * 2\n  const r = abs(sH - r2)\n  // Create d attribute value.\n  // One side is a perfect circle while the other side approaches to create a\n  // full moon and new moon in alternating order\n  // prettier-ignore\n  const d = [\n    'M', sH, 0,\n    'A', r2 < sQ * 3 ? r - sQ : sQ - r, sQ,\n    0, 1, floor(r2 / sQ) % 2,\n    sH, size, sQ, sQ,\n    0, 1, 1 - floor(r2 / sH),\n    sH, 0\n  ].join(' ')\n\n  return {\n    size,\n    d\n  }\n}\n\n/**\n * Creates an SVG as a string. Does not require `document` and can be used to\n * render SVGs server-side.\n *\n * The SVG uses two CSS variables:\n * * --gaffney-svg-moon-fill-1 (default: #000)\n * * --gaffney-svg-moon-fill-2 (default: #ff0)\n *\n * Define these variables at any level to change the color of the SVG.\n *\n * @param  {Object} options\n *   Object of options\n * @param  {string} options.d\n *   The d attribute value of an `svg path` (crescent shape to circle)\n * @param  {number} options.size\n *   The size of the viewBox\n * @return {String}\n *   The final SVG as a string (`<svg [...]>[...]</svg>`)\n */\nconst svgString = ({d = '', size = 60}) =>\n  `\n<svg xmlns=\"${XMLNS}\" viewBox=\"0 0 ${size} ${size}\">\n  <g stroke=\"var(--gaffney-svg-moon-fill-0, #000)\"\n     stroke-width=\"1\"\n     stroke-location=\"inside\">\n    <circle cx=\"${size / 2}\"\n            cy=\"${size / 2}\"\n            r=\"${size / 2}\"\n            fill=\"var(--gaffney-svg-moon-fill-1, #000)\"\n            vector-effect=\"non-scaling-stroke\">\n    </circle>\n    <path d=\"${d}\"\n          fill=\"var(--gaffney-svg-moon-fill-2, #ff0)\"\n          vector-effect=\"non-scaling-stroke\">\n    </path>\n  </g>\n</svg>\n`\n    .replace(/\\s+/g, ' ')\n    .replace(/[>]\\s+[<]/g, '><')\n    .trim()\n\n/**\n * Lazy attribute setter for SVG elements.\n *\n * @param  {SVGElement} el\n *   A valid SVG element\n * @param  {string}   k\n *   The name of the attribute\n * @param  {string}   v\n *   The value of the attribute\n */\nconst setAttributeNS = (el, k, v) => el.setAttributeNS(null, k, v)\n\n/**\n * Laszy SVG element creator\n *\n * @param  {string} el\n *   The name of the element\n * @return {SVGElement}\n *   A valid SVG element\n */\nconst createElementNS = el => document.createElementNS(XMLNS, el)\n\n/**\n * Creates an SVG as a DOM element. Requires `document`.\n *\n * The SVG uses two CSS variables:\n * * --gaffney-svg-moon-fill-1 (default: #000)\n * * --gaffney-svg-moon-fill-2 (default: #ff0)\n *\n * Define these variables at any level to change the color of the SVG.\n *\n * @param  {Object} options\n *   Object of options\n * @param  {string} options.d\n *   The d attribute value of an `svg path` (crescent shape to circle)\n * @param  {number} options.size\n *   The size of the viewBox\n * @return {Object}\n *   The svg and path elements as properties in an object `{svg, path}`\n */\nconst svgElement = ({d = '', size = 60}) => {\n  const svg = createElementNS('svg')\n  const g = createElementNS('g')\n  const circle = createElementNS('circle')\n  const path = createElementNS('path')\n  // SVG\n  setAttributeNS(svg, 'viewBox', `0 0 ${size} ${size}`)\n  // Group\n  setAttributeNS(g, 'stroke', `var(--gaffney-svg-moon-fill-0, #000)`)\n  setAttributeNS(g, 'stroke-width', 1)\n  setAttributeNS(g, 'stroke-location', 'inside')\n  // Circle\n  setAttributeNS(circle, 'cx', size / 2)\n  setAttributeNS(circle, 'cy', size / 2)\n  setAttributeNS(circle, 'r', size / 2)\n  setAttributeNS(circle, 'fill', 'var(--gaffney-svg-moon-fill-1, #000)')\n  setAttributeNS(circle, 'vector-effect', 'non-scaling-stroke')\n  // Path\n  setAttributeNS(path, 'd', d)\n  setAttributeNS(path, 'fill', 'var(--gaffney-svg-moon-fill-2, #ff0)')\n  setAttributeNS(path, 'vector-effect', 'non-scaling-stroke')\n\n  svg.appendChild(g)\n  g.appendChild(circle)\n  g.appendChild(path)\n  return {\n    svg,\n    path\n  }\n}\n\nexport {svgString, svgElement, crescentShape, setAttributeNS}\n",
+    "static": true,
+    "longname": "/Users/greada/Documents/workspace/private/gaffney/@gaffney/svg/src/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 82,
+    "kind": "variable",
+    "name": "XMLNS",
+    "memberof": "@gaffney/svg/src/index.js",
+    "static": true,
+    "longname": "@gaffney/svg/src/index.js~XMLNS",
+    "access": "public",
+    "export": false,
+    "importPath": "@gaffney/svg",
+    "importStyle": null,
+    "description": "XML namespace for SVG elements",
+    "lineNumber": 15,
+    "type": {
+      "nullable": null,
+      "types": [
+        "string"
+      ],
+      "spread": false,
+      "description": null
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 83,
+    "kind": "function",
+    "name": "createElementNS",
+    "memberof": "@gaffney/svg/src/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "@gaffney/svg/src/index.js~createElementNS",
+    "access": "public",
+    "export": false,
+    "importPath": "@gaffney/svg",
+    "importStyle": null,
+    "description": "Laszy SVG element creator",
+    "lineNumber": 120,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "el",
+        "description": "The name of the element"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "SVGElement"
+      ],
+      "spread": false,
+      "description": "A valid SVG element"
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 84,
+    "kind": "function",
+    "name": "svgString",
+    "memberof": "@gaffney/svg/src/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "@gaffney/svg/src/index.js~svgString",
+    "access": "public",
+    "export": true,
+    "importPath": "@gaffney/svg",
+    "importStyle": "{svgString}",
+    "description": "Creates an SVG as a string. Does not require `document` and can be used to\nrender SVGs server-side.\n\nThe SVG uses two CSS variables:\n* --gaffney-svg-moon-fill-1 (default: #000)\n* --gaffney-svg-moon-fill-2 (default: #ff0)\n\nDefine these variables at any level to change the color of the SVG.",
+    "lineNumber": 77,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "options",
+        "description": "Object of options"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "options.d",
+        "description": "The d attribute value of an `svg path` (crescent shape to circle)"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "options.size",
+        "description": "The size of the viewBox"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "String"
+      ],
+      "spread": false,
+      "description": "The final SVG as a string (`<svg [...]>[...]</svg>`)"
+    }
+  },
+  {
+    "__docId__": 85,
+    "kind": "function",
+    "name": "svgElement",
+    "memberof": "@gaffney/svg/src/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "@gaffney/svg/src/index.js~svgElement",
+    "access": "public",
+    "export": true,
+    "importPath": "@gaffney/svg",
+    "importStyle": "{svgElement}",
+    "description": "Creates an SVG as a DOM element. Requires `document`.\n\nThe SVG uses two CSS variables:\n* --gaffney-svg-moon-fill-1 (default: #000)\n* --gaffney-svg-moon-fill-2 (default: #ff0)\n\nDefine these variables at any level to change the color of the SVG.",
+    "lineNumber": 140,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "options",
+        "description": "Object of options"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "options.d",
+        "description": "The d attribute value of an `svg path` (crescent shape to circle)"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "options.size",
+        "description": "The size of the viewBox"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": "The svg and path elements as properties in an object `{svg, path}`"
+    }
+  },
+  {
+    "__docId__": 86,
+    "kind": "function",
+    "name": "crescentShape",
+    "memberof": "@gaffney/svg/src/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "@gaffney/svg/src/index.js~crescentShape",
+    "access": "public",
+    "export": true,
+    "importPath": "@gaffney/svg",
+    "importStyle": "{crescentShape}",
+    "description": "Creates a cresent path for the moon svg.\nThe shape is based on the moon phases (0 - 29).\nThe size can be adjusted but it is recommended to keep the size at 60.",
+    "lineNumber": 32,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "options",
+        "description": "Object of options"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "options.progress",
+        "description": "The progress of the crescent (default: 0 - 29 as integer)"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "options.size",
+        "description": "The size of the viewBox (square)"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": "The value for the `d` attribute of an `svg path` and the size\n  as properties in an object `{d, size}`"
+    }
+  },
+  {
+    "__docId__": 87,
+    "kind": "function",
+    "name": "setAttributeNS",
+    "memberof": "@gaffney/svg/src/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "@gaffney/svg/src/index.js~setAttributeNS",
+    "access": "public",
+    "export": true,
+    "importPath": "@gaffney/svg",
+    "importStyle": "{setAttributeNS}",
+    "description": "Lazy attribute setter for SVG elements.",
+    "lineNumber": 110,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "SVGElement"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "el",
+        "description": "A valid SVG element"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "k",
+        "description": "The name of the attribute"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "v",
+        "description": "The value of the attribute"
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 88,
+    "kind": "file",
+    "name": "@gaffney/svg/test/index.js",
+    "content": "import test from 'ava'\nimport {crescentShape, svgString} from '../src'\n\nconst svgControl = ({size = 60, d= ''}) =>\n  `<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 ${size} ${size}\"><g stroke=\"var(--gaffney-svg-moon-fill-0, #000)\" stroke-width=\"1\" stroke-location=\"inside\"><circle cx=\"${size / 2}\" cy=\"${size / 2}\" r=\"${size / 2}\" fill=\"var(--gaffney-svg-moon-fill-1, #000)\" vector-effect=\"non-scaling-stroke\"></circle><path d=\"${d}\" fill=\"var(--gaffney-svg-moon-fill-2, #ff0)\" vector-effect=\"non-scaling-stroke\"></path></g></svg>`\n\ntest('svgString returns a minified SVG', t => {\n  const svg = svgString({})\n  t.is(svg, svgControl({}))\n})\n\ntest('svgString returns the correct custom sized SVG', t => {\n  const svg = svgString({size: 120})\n  t.is(svg, svgControl({size: 120}))\n})\n\ntest('svgString returns the correct shape', t => {\n  const svg = svgString({d: 'M 60 0 A 30 30 0 1 0 60 120 30 30 0 1 1 60 0'})\n  t.is(svg, svgControl({d: 'M 60 0 A 30 30 0 1 0 60 120 30 30 0 1 1 60 0'}))\n})\n\ntest('crescentShape returns the inputSize', t => {\n  const inputSize = 120\n  const {size} = crescentShape({size: inputSize})\n  t.is(size, inputSize)\n})\n\ntest('crescentShape allows a custom size', t => {\n  const inputSize = 120\n  const {d} = crescentShape({size: inputSize})\n  t.is(d, `M ${inputSize / 2} 0 A ${-inputSize / 4} ${inputSize / 4} 0 1 0 ${inputSize / 2} ${inputSize} ${inputSize / 4} ${inputSize / 4} 0 1 0 ${inputSize / 2} 0`)\n})\n\ntest('crescentShape returns the correct default shape', t => {\n  t.is(crescentShape({}).d, 'M 30 0 A -15 15 0 1 0 30 60 15 15 0 1 0 30 0')\n})\n\ntest('crescentShape allows using progress to define the shape', t => {\n  t.is(crescentShape({progress: 0}).d, 'M 30 0 A -15 15 0 1 0 30 60 15 15 0 1 0 30 0')\n  t.is(crescentShape({progress: 1}).d, 'M 30 0 A -13 15 0 1 0 30 60 15 15 0 1 0 30 0')\n  t.is(crescentShape({progress: 2}).d, 'M 30 0 A -11 15 0 1 0 30 60 15 15 0 1 0 30 0')\n  t.is(crescentShape({progress: 3}).d, 'M 30 0 A -9 15 0 1 0 30 60 15 15 0 1 0 30 0')\n  t.is(crescentShape({progress: 4}).d, 'M 30 0 A -7 15 0 1 0 30 60 15 15 0 1 0 30 0')\n  t.is(crescentShape({progress: 5}).d, 'M 30 0 A -5 15 0 1 0 30 60 15 15 0 1 0 30 0')\n  t.is(crescentShape({progress: 6}).d, 'M 30 0 A -3 15 0 1 0 30 60 15 15 0 1 0 30 0')\n  t.is(crescentShape({progress: 7}).d, 'M 30 0 A -1 15 0 1 0 30 60 15 15 0 1 0 30 0')\n  t.is(crescentShape({progress: 8}).d, 'M 30 0 A -1 15 0 1 1 30 60 15 15 0 1 0 30 0')\n  t.is(crescentShape({progress: 9}).d, 'M 30 0 A -3 15 0 1 1 30 60 15 15 0 1 0 30 0')\n  t.is(crescentShape({progress: 10}).d, 'M 30 0 A -5 15 0 1 1 30 60 15 15 0 1 0 30 0')\n  t.is(crescentShape({progress: 11}).d, 'M 30 0 A -7 15 0 1 1 30 60 15 15 0 1 0 30 0')\n  t.is(crescentShape({progress: 12}).d, 'M 30 0 A -9 15 0 1 1 30 60 15 15 0 1 0 30 0')\n  t.is(crescentShape({progress: 13}).d, 'M 30 0 A -11 15 0 1 1 30 60 15 15 0 1 0 30 0')\n  t.is(crescentShape({progress: 14}).d, 'M 30 0 A -13 15 0 1 1 30 60 15 15 0 1 0 30 0')\n  t.is(crescentShape({progress: 15}).d, 'M 30 0 A 15 15 0 1 0 30 60 15 15 0 1 1 30 0')\n  t.is(crescentShape({progress: 16}).d, 'M 30 0 A 13 15 0 1 0 30 60 15 15 0 1 1 30 0')\n  t.is(crescentShape({progress: 17}).d, 'M 30 0 A 11 15 0 1 0 30 60 15 15 0 1 1 30 0')\n  t.is(crescentShape({progress: 18}).d, 'M 30 0 A 9 15 0 1 0 30 60 15 15 0 1 1 30 0')\n  t.is(crescentShape({progress: 19}).d, 'M 30 0 A 7 15 0 1 0 30 60 15 15 0 1 1 30 0')\n  t.is(crescentShape({progress: 20}).d, 'M 30 0 A 5 15 0 1 0 30 60 15 15 0 1 1 30 0')\n  t.is(crescentShape({progress: 21}).d, 'M 30 0 A 3 15 0 1 0 30 60 15 15 0 1 1 30 0')\n  t.is(crescentShape({progress: 22}).d, 'M 30 0 A 1 15 0 1 0 30 60 15 15 0 1 1 30 0')\n  t.is(crescentShape({progress: 23}).d, 'M 30 0 A -1 15 0 1 1 30 60 15 15 0 1 1 30 0')\n  t.is(crescentShape({progress: 24}).d, 'M 30 0 A -3 15 0 1 1 30 60 15 15 0 1 1 30 0')\n  t.is(crescentShape({progress: 25}).d, 'M 30 0 A -5 15 0 1 1 30 60 15 15 0 1 1 30 0')\n  t.is(crescentShape({progress: 26}).d, 'M 30 0 A -7 15 0 1 1 30 60 15 15 0 1 1 30 0')\n  t.is(crescentShape({progress: 27}).d, 'M 30 0 A -9 15 0 1 1 30 60 15 15 0 1 1 30 0')\n  t.is(crescentShape({progress: 28}).d, 'M 30 0 A -11 15 0 1 1 30 60 15 15 0 1 1 30 0')\n  t.is(crescentShape({progress: 29}).d, 'M 30 0 A -13 15 0 1 1 30 60 15 15 0 1 1 30 0')\n})\n",
+    "static": true,
+    "longname": "/Users/greada/Documents/workspace/private/gaffney/@gaffney/svg/test/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 89,
+    "kind": "function",
+    "name": "svgControl",
+    "memberof": "@gaffney/svg/test/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "@gaffney/svg/test/index.js~svgControl",
+    "access": "public",
+    "export": false,
+    "importPath": "@gaffney/svg/test/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "params": [
+      {
+        "name": "objectPattern",
+        "types": [
+          "{\"size\": *, \"d\": *}"
+        ],
+        "defaultRaw": {
+          "size": null,
+          "d": null
+        },
+        "defaultValue": "{\"size\":null,\"d\":null}"
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 90,
+    "kind": "file",
+    "name": "@gaffney/trig1/src/index.js",
+    "content": "import {\n  floor,\n  sin,\n  getFraction as fr,\n  degreeToRadians as rad\n} from '@gaffney/utils'\nimport julianDay from '@gaffney/julian-day'\n\nconst trig1 = (year, month, day) => {\n  const JULIAN_DAY = julianDay(year, month, day)\n  const K0 = floor((year - 1900) * 12.3685)\n  const T = (year - 1899.5) / 100\n  const T2 = T * T\n  T3 = T * T * T\n  const J0 = 2415020 + 29 * K0\n  const F0 =\n    0.0001178 * T2 -\n    0.000000155 * T3 +\n    (0.75933 + 0.53058868 * K0) -\n    (0.000837 * T + 0.000335 * T2)\n  const M0 =\n    360 * fr(K0 * 0.08084821133) + 359.2242 - 0.0000333 * T2 - 0.00000347 * T3\n  const M1 =\n    360 * fr(K0 * 0.07171366128) + 306.0253 + 0.0107306 * T2 + 0.00001236 * T3\n  const B1 =\n    360 * fr(K0 * 0.08519585128) + 21.2964 - 0.0016528 * T2 - 0.00000239 * T3\n  let oldJ\n  let jDay = 0\n  let phase = 0\n  while (jDay < JULIAN_DAY) {\n    let f = F0 + 1.530588 * phase\n    const M5 = rad(M0 + phase * 29.10535608)\n    const M6 = rad(M1 + phase * 385.81691806)\n    const B6 = rad(B1 + phase * 390.67050646)\n    f -= 0.4068 * sin(M6) + (0.1734 - 0.000393 * T) * sin(M5)\n    f += 0.0161 * sin(2 * M6) + 0.0104 * sin(2 * B6)\n    f -= 0.0074 * sin(M5 - M6) - 0.0051 * sin(M5 + M6)\n    f += 0.0021 * sin(2 * M5) + 0.001 * sin(2 * B6 - M6)\n    f += 0.5 / 1440\n    oldJ = jDay\n    jDay = J0 + 28 * phase + floor(f)\n    phase++\n  }\n  return (JULIAN_DAY - oldJ) % 30\n}\n\nexport default trig1\n",
+    "static": true,
+    "longname": "/Users/greada/Documents/workspace/private/gaffney/@gaffney/trig1/src/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 91,
+    "kind": "function",
+    "name": "trig1",
+    "memberof": "@gaffney/trig1/src/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "@gaffney/trig1/src/index.js~trig1",
+    "access": "public",
+    "export": true,
+    "importPath": "@gaffney/trig1",
+    "importStyle": "trig1",
+    "description": null,
+    "lineNumber": 9,
+    "undocument": true,
+    "params": [
+      {
+        "name": "year",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "month",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "day",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 92,
+    "kind": "file",
+    "name": "@gaffney/trig1/test/index.js",
+    "content": "import test from 'ava'\nimport trig1 from '../src'\n\ntest('trig1', t => {\n  t.pass()\n})\n",
+    "static": true,
+    "longname": "/Users/greada/Documents/workspace/private/gaffney/@gaffney/trig1/test/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 93,
+    "kind": "file",
+    "name": "@gaffney/trig2/src/index.js",
+    "content": "import {\n  floor,\n  sin,\n  ceil,\n  getFraction as fr,\n  degreeToRadians as rad\n} from '@gaffney/utils'\nimport julianDay from '@gaffney/julian-day'\n\nconst trig2 = (year, month, day) => {\n  const JULIAN_DAY = julianDay(year, month, day)\n  const n = floor(12.37 * (year - 1900 + (month - 0.5) / 12))\n  const t = n / 1236.85\n  const t2 = t * t\n  const aS = 359.2242 + 29.105356 * n\n  const aM = 306.0253 + 385.816918 * n + 0.01073 * t2\n  const extra =\n    0.75933 +\n    1.53058868 * n +\n    (1.178e-4 - 1.55e-7 * t) * t2 +\n    (0.1734 - 3.93e-4 * t) * sin(rad(aS)) -\n    0.4068 * sin(rad(aM))\n  const i = extra > 0 ? floor(extra) : ceil(extra - 1)\n  const jD = 2415020 + 28 * n + i\n  return (JULIAN_DAY - jD + 30) % 30\n}\n\nexport default trig2\n",
+    "static": true,
+    "longname": "/Users/greada/Documents/workspace/private/gaffney/@gaffney/trig2/src/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 94,
+    "kind": "function",
+    "name": "trig2",
+    "memberof": "@gaffney/trig2/src/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "@gaffney/trig2/src/index.js~trig2",
+    "access": "public",
+    "export": true,
+    "importPath": "@gaffney/trig2",
+    "importStyle": "trig2",
+    "description": null,
+    "lineNumber": 10,
+    "undocument": true,
+    "params": [
+      {
+        "name": "year",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "month",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "day",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 95,
+    "kind": "file",
+    "name": "@gaffney/trig2/test/index.js",
+    "content": "import test from 'ava'\nimport trig2 from '../src'\n\ntest('trig2', t => {\n  t.pass()\n})\n",
+    "static": true,
+    "longname": "/Users/greada/Documents/workspace/private/gaffney/@gaffney/trig2/test/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 96,
+    "kind": "file",
+    "name": "@gaffney/utils/src/index.js",
+    "content": "export * from './math'\n",
+    "static": true,
+    "longname": "/Users/greada/Documents/workspace/private/gaffney/@gaffney/utils/src/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 97,
+    "kind": "file",
+    "name": "@gaffney/utils/src/math.js",
+    "content": "const {PI, cos, sin, floor, ceil, round, min, max, abs} = Math\n\nconst getFraction = number => {\n  return number - floor(number)\n}\n\nconst degreeToRadians = degree => {\n  return PI / 180 * degree\n}\n\nconst parseInteger = (number, radix = 10) => parseInt(number, radix)\n\nconst leftPad = (num, len) => ('00000000' + num).substr(len * -1)\n\nconst math = {\n  PI,\n  cos,\n  sin,\n  floor,\n  ceil,\n  round,\n  min,\n  max,\n  abs,\n  leftPad,\n  degreeToRadians,\n  getFraction,\n  parseInteger\n}\n\nexport {\n  PI,\n  cos,\n  sin,\n  floor,\n  ceil,\n  round,\n  min,\n  max,\n  abs,\n  leftPad,\n  degreeToRadians,\n  getFraction,\n  parseInteger\n}\n\nexport default math\n",
+    "static": true,
+    "longname": "/Users/greada/Documents/workspace/private/gaffney/@gaffney/utils/src/math.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 98,
+    "kind": "variable",
+    "name": "PI",
+    "memberof": "@gaffney/utils/src/math.js",
+    "static": true,
+    "longname": "@gaffney/utils/src/math.js~PI",
+    "access": "public",
+    "export": false,
+    "importPath": "@gaffney/utils",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 99,
+    "kind": "variable",
+    "name": "math",
+    "memberof": "@gaffney/utils/src/math.js",
+    "static": true,
+    "longname": "@gaffney/utils/src/math.js~math",
+    "access": "public",
+    "export": true,
+    "importPath": "@gaffney/utils",
+    "importStyle": "math",
+    "description": null,
+    "lineNumber": 15,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{\"PI\": *, \"cos\": *, \"sin\": *, \"floor\": *, \"ceil\": *, \"round\": *, \"min\": *, \"max\": *, \"abs\": *, \"leftPad\": *, \"degreeToRadians\": *, \"getFraction\": *, \"parseInteger\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 100,
+    "kind": "function",
+    "name": "leftPad",
+    "memberof": "@gaffney/utils/src/math.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "@gaffney/utils/src/math.js~leftPad",
+    "access": "public",
+    "export": true,
+    "importPath": "@gaffney/utils",
+    "importStyle": "{leftPad}",
+    "description": null,
+    "lineNumber": 13,
+    "undocument": true,
+    "params": [
+      {
+        "name": "num",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "len",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 101,
+    "kind": "function",
+    "name": "degreeToRadians",
+    "memberof": "@gaffney/utils/src/math.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "@gaffney/utils/src/math.js~degreeToRadians",
+    "access": "public",
+    "export": true,
+    "importPath": "@gaffney/utils",
+    "importStyle": "{degreeToRadians}",
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "params": [
+      {
+        "name": "degree",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 102,
+    "kind": "function",
+    "name": "getFraction",
+    "memberof": "@gaffney/utils/src/math.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "@gaffney/utils/src/math.js~getFraction",
+    "access": "public",
+    "export": true,
+    "importPath": "@gaffney/utils",
+    "importStyle": "{getFraction}",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "params": [
+      {
+        "name": "number",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 103,
+    "kind": "function",
+    "name": "parseInteger",
+    "memberof": "@gaffney/utils/src/math.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "@gaffney/utils/src/math.js~parseInteger",
+    "access": "public",
+    "export": true,
+    "importPath": "@gaffney/utils",
+    "importStyle": "{parseInteger}",
+    "description": null,
+    "lineNumber": 11,
+    "undocument": true,
+    "params": [
+      {
+        "name": "number",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "radix",
+        "optional": true,
+        "types": [
+          "number"
+        ],
+        "defaultRaw": 10,
+        "defaultValue": "10"
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 104,
+    "kind": "file",
+    "name": "@gaffney/utils/test/index.js",
+    "content": "import test from 'ava'\nimport * as math from '../src/math'\n\ntest('utils', t => {\n  t.pass()\n})\n",
+    "static": true,
+    "longname": "/Users/greada/Documents/workspace/private/gaffney/@gaffney/utils/test/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 105,
+    "kind": "file",
+    "name": "@gaffney/zodiac-sign/src/index.js",
+    "content": "import {leftPad as pad, parseInteger} from '@gaffney/utils'\nimport {getMonth, getDay} from '@gaffney/date'\n\nconst zodiacSign = (...date) => {\n  let sign = ''\n  const month = getMonth(...date) + 1\n  const day = getDate(...date)\n  const mdd = parseInteger(month + pad(day, 2))\n  if (mdd < 120) {\n    sign = 'capricorn'\n  } else if (mdd < 218) {\n    sign = 'aquarius'\n  } else if (mdd < 320) {\n    sign = 'pisces'\n  } else if (mdd < 420) {\n    sign = 'aries'\n  } else if (mdd < 521) {\n    sign = 'taurus'\n  } else if (mdd < 621) {\n    sign = 'gemini'\n  } else if (mdd < 722) {\n    sign = 'cancer'\n  } else if (mdd < 823) {\n    sign = 'leo'\n  } else if (mdd < 923) {\n    sign = 'virgo'\n  } else if (mdd < 1023) {\n    sign = 'libra'\n  } else if (mdd < 1122) {\n    sign = 'scorpius'\n  } else if (mdd < 1222) {\n    sign = 'sagittarius'\n  } else if (mdd < 1231) {\n    sign = 'capricorn'\n  }\n  return sign\n}\n",
+    "static": true,
+    "longname": "/Users/greada/Documents/workspace/private/gaffney/@gaffney/zodiac-sign/src/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 106,
+    "kind": "function",
+    "name": "zodiacSign",
+    "memberof": "@gaffney/zodiac-sign/src/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "@gaffney/zodiac-sign/src/index.js~zodiacSign",
+    "access": "public",
+    "export": false,
+    "importPath": "@gaffney/zodiac-sign",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "params": [
+      {
+        "name": "date",
+        "types": [
+          "...*"
+        ],
+        "spread": true
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 107,
+    "kind": "file",
+    "name": "@gaffney/zodiac-sign/test/index.js",
+    "content": "import test from 'ava'\nimport zodiacSign from '../src'\n\ntest('zodiacSign', t => {\n  t.pass()\n})\n",
+    "static": true,
+    "longname": "/Users/greada/Documents/workspace/private/gaffney/@gaffney/zodiac-sign/test/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "kind": "index",
+    "content": "# Gaffney\n\n<p align=\"center\"><img src=\"https://cdn.rawgit.com/pixelass/gaffney/master/gaffney.svg\" alt=\"gaffney logo\" width=\"200\"/></p>\n\n## Status: active development (prototype port)\n\nPrototype: [Codepen Prototype](https://codepen.io/pixelass/pen/baybqZ)\n\n## Demo / Documentation\n\n[Demo](https://pixelass.github.io/gaffney)\n[Documentation](https://pixelass.github.io/gaffney/api)\n\n## Why the name Gaffney?\n\n[Vince Gaffney](https://twitter.com/gaffney_v) led the archeological team that\ndiscovered the first calendar made by human kind, a calendar based on the moon.\n\n> The pits were dug in the shapes of various phases of the moon. \"Waxing, waning,\n> crescents, and gibbous, they're all there and arranged in a 50-meter-long (164-foot) arc.  \n> *[National Geographic](https://news.nationalgeographic.com/news/2013/07/130715-worlds-oldest-calendar-lunar-cycle-pits-mesolithic-scotland/)*\n\n## What does this do?\n\nGaffney provides a set of tools to create lunar and astrology calendars, create APIs\nor microservices etc. using data about the moon and stars.\n\n## Simple examples\n\n### SVGs\n\n```js\nimport {svgString, crescentShape as shape} from '@gaffney/svg'\n\nconst svg = svgString(shape({progress: 3}))\n```\n\n### single packages\n\n#### simple\n\n```js\nimport getMoonPhase from '@gaffney/simple'\n\nconst moonPhase = getMoonPhase(2018, 4, 20)\n```\n\n#### conway\n\n```js\nimport getMoonPhase from '@gaffney/conway'\n\nconst moonPhase = getMoonPhase(2018, 4, 20)\n```\n\n#### trig1\n\n```js\nimport getMoonPhase from '@gaffney/trig1'\n\nconst moonPhase = getMoonPhase(2018, 4, 20)\n```\n\n#### trig2\n\n```js\nimport getMoonPhase from '@gaffney/trig2'\n\nconst moonPhase = getMoonPhase(2018, 4, 20)\n```\n\n### Gaffney as an instance\n\n```js\nimport Gaffney from '@gaffney/gaffney'\nimport {\n  svgString as moon,\n  crescentShape as crescent,\n  zodiacSign as zodiac\n} from '@gaffney/svg'\n\nconst lunarCalendar = new Gaffney()\n\nconst moonPhase = calendar.trig2(2018, 4, 20)\nconst zodiacPhase = calendar.zodiac(2018, 4, 20)\nconst svgMoon = moon(crescent({progress: moonPhase}))\nconst svgZodiac = zodiac(zodiacPhase)\n```\n",
+    "longname": "/Users/greada/Documents/workspace/private/gaffney/README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\n  \"name\": \"gaffney\",\n  \"version\": \"0.1.0\",\n  \"description\": \"A calendar API with lunar and astrological data.\",\n  \"repository\": \"git@github.com:pixelass/gaffney.git\",\n  \"author\": \"Gregor Adams <greg@pixelass.com>\",\n  \"license\": \"MIT\",\n  \"private\": true,\n  \"scripts\": {\n    \"bootstrap\": \"lerna bootstrap\",\n    \"babel\": \"lerna run babel\",\n    \"babel:watch\": \"lerna run babel:watch --parallel\",\n    \"build\": \"webpack\",\n    \"clean\": \"lerna clean\",\n    \"commitmsg\": \"commitlint -e $GIT_PARAMS\",\n    \"develop\": \"npm-run-all --parallel babel:watch watch\",\n    \"docs\": \"esdoc\",\n    \"format:js\": \"lerna run format:js\",\n    \"prepush\": \"lerna run test\",\n    \"test\": \"lerna run test\",\n    \"watch\": \"webpack-dev-server\"\n  },\n  \"browserslist\": [\n    \"last 2 chrome versions\",\n    \"last 2 firefox versions\",\n    \"last 2 safari versions\",\n    \"last 2 edge versions\"\n  ],\n  \"workspaces\": [\n    \"@gaffney/*\"\n  ],\n  \"devDependencies\": {\n    \"@commitlint/cli\": \"^6.0.2\",\n    \"@commitlint/config-conventional\": \"^6.0.2\",\n    \"@stiligita/core\": \"^1.0.0-0\",\n    \"@stiligita/react\": \"^1.0.0-0\",\n    \"babel-cli\": \"^6.26.0\",\n    \"babel-core\": \"^6.26.0\",\n    \"babel-loader\": \"^7.1.2\",\n    \"babel-preset-env\": \"^1.6.1\",\n    \"babel-preset-react\": \"^6.24.1\",\n    \"babel-preset-stage-2\": \"^6.24.1\",\n    \"cross-env\": \"^5.1.3\",\n    \"esdoc\": \"^1.0.4\",\n    \"esdoc-brand-plugin\": \"^1.0.0\",\n    \"esdoc-ecmascript-proposal-plugin\": \"^1.0.0\",\n    \"esdoc-importpath-plugin\": \"^1.0.1\",\n    \"esdoc-lint-plugin\": \"1.0.1\",\n    \"esdoc-standard-plugin\": \"^1.0.0\",\n    \"git\": \"^0.1.5\",\n    \"husky\": \"^0.14.3\",\n    \"lerna\": \"^2.5.1\",\n    \"npm-run-all\": \"^4.1.2\",\n    \"react\": \"^16.2.0\",\n    \"react-dom\": \"^16.2.0\",\n    \"webpack\": \"^3.10.0\",\n    \"webpack-dev-server\": \"^2.11.1\"\n  }\n}\n",
+    "longname": "/Users/greada/Documents/workspace/private/gaffney/package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  }
+]

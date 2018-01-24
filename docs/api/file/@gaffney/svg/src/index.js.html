@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../../../">
+  <title data-ice="title">@gaffney/svg/src/index.js | Gaffney</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<meta name="description" content="A library for lunar and astrology calendars"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="Gaffney"><meta property="twitter:description" content="A library for lunar and astrology calendars"></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+<a style="position:relative; top:3px;" href="https://github.com/pixelass/gaffney"><img width="20px" src="./image/github.png"></a></header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#conway-src">conway/src</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-conway">conway</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#date-src">date/src</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-date">date</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getDate">getDate</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getDay">getDay</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getFullYear">getFullYear</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getMonth">getMonth</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-days">days</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-months">months</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#gaffney-src">gaffney/src</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/@gaffney/gaffney/src/index.js~Gaffney.html">Gaffney</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#julian-day-src">julian-day/src</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-julianDay">julianDay</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#simple-src">simple/src</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-simple">simple</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#svg-src">svg/src</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-crescentShape">crescentShape</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setAttributeNS">setAttributeNS</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-svgElement">svgElement</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-svgString">svgString</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#trig1-src">trig1/src</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-trig1">trig1</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#trig2-src">trig2/src</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-trig2">trig2</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#utils-src">utils/src</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-degreeToRadians">degreeToRadians</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getFraction">getFraction</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-leftPad">leftPad</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-parseInteger">parseInteger</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-math">math</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">@gaffney/svg/src/index.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">/* global document */
+/**
+ * SVG tools for Gaffney
+ * @file svg/src/index.js
+ * @author Gregor Adams &lt;greg@pixelass.com&gt;
+ */
+
+import {abs, floor} from &apos;@gaffney/utils&apos;
+
+/**
+ * XML namespace for SVG elements
+ *
+ * @type {string}
+ */
+const XMLNS = &apos;http://www.w3.org/2000/svg&apos;
+
+/**
+ * Creates a cresent path for the moon svg.
+ * The shape is based on the moon phases (0 - 29).
+ * The size can be adjusted but it is recommended to keep the size at 60.
+ *
+ * @param  {Object} options
+ *   Object of options
+ * @param  {number} options.progress
+ *   The progress of the crescent (default: 0 - 29 as integer)
+ * @param  {number} options.size
+ *   The size of the viewBox (square)
+ * @return {Object}
+ *   The value for the `d` attribute of an `svg path` and the size
+ *   as properties in an object `{d, size}`
+ */
+const crescentShape = ({progress = 0, size = 60}) =&gt; {
+  const defaultRadius = 30
+  const sH = size / 2
+  const sQ = size / 4
+  const p = (sQ + progress / defaultRadius * sH) % sH
+  const r2 = p * 2
+  const r = abs(sH - r2)
+  // Create d attribute value.
+  // One side is a perfect circle while the other side approaches to create a
+  // full moon and new moon in alternating order
+  // prettier-ignore
+  const d = [
+    &apos;M&apos;, sH, 0,
+    &apos;A&apos;, r2 &lt; sQ * 3 ? r - sQ : sQ - r, sQ,
+    0, 1, floor(r2 / sQ) % 2,
+    sH, size, sQ, sQ,
+    0, 1, 1 - floor(r2 / sH),
+    sH, 0
+  ].join(&apos; &apos;)
+
+  return {
+    size,
+    d
+  }
+}
+
+/**
+ * Creates an SVG as a string. Does not require `document` and can be used to
+ * render SVGs server-side.
+ *
+ * The SVG uses two CSS variables:
+ * * --gaffney-svg-moon-fill-1 (default: #000)
+ * * --gaffney-svg-moon-fill-2 (default: #ff0)
+ *
+ * Define these variables at any level to change the color of the SVG.
+ *
+ * @param  {Object} options
+ *   Object of options
+ * @param  {string} options.d
+ *   The d attribute value of an `svg path` (crescent shape to circle)
+ * @param  {number} options.size
+ *   The size of the viewBox
+ * @return {String}
+ *   The final SVG as a string (`&lt;svg [...]&gt;[...]&lt;/svg&gt;`)
+ */
+const svgString = ({d = &apos;&apos;, size = 60}) =&gt;
+  `
+&lt;svg xmlns=&quot;${XMLNS}&quot; viewBox=&quot;0 0 ${size} ${size}&quot;&gt;
+  &lt;g stroke=&quot;var(--gaffney-svg-moon-fill-0, #000)&quot;
+     stroke-width=&quot;1&quot;
+     stroke-location=&quot;inside&quot;&gt;
+    &lt;circle cx=&quot;${size / 2}&quot;
+            cy=&quot;${size / 2}&quot;
+            r=&quot;${size / 2}&quot;
+            fill=&quot;var(--gaffney-svg-moon-fill-1, #000)&quot;
+            vector-effect=&quot;non-scaling-stroke&quot;&gt;
+    &lt;/circle&gt;
+    &lt;path d=&quot;${d}&quot;
+          fill=&quot;var(--gaffney-svg-moon-fill-2, #ff0)&quot;
+          vector-effect=&quot;non-scaling-stroke&quot;&gt;
+    &lt;/path&gt;
+  &lt;/g&gt;
+&lt;/svg&gt;
+`
+    .replace(/\s+/g, &apos; &apos;)
+    .replace(/[&gt;]\s+[&lt;]/g, &apos;&gt;&lt;&apos;)
+    .trim()
+
+/**
+ * Lazy attribute setter for SVG elements.
+ *
+ * @param  {SVGElement} el
+ *   A valid SVG element
+ * @param  {string}   k
+ *   The name of the attribute
+ * @param  {string}   v
+ *   The value of the attribute
+ */
+const setAttributeNS = (el, k, v) =&gt; el.setAttributeNS(null, k, v)
+
+/**
+ * Laszy SVG element creator
+ *
+ * @param  {string} el
+ *   The name of the element
+ * @return {SVGElement}
+ *   A valid SVG element
+ */
+const createElementNS = el =&gt; document.createElementNS(XMLNS, el)
+
+/**
+ * Creates an SVG as a DOM element. Requires `document`.
+ *
+ * The SVG uses two CSS variables:
+ * * --gaffney-svg-moon-fill-1 (default: #000)
+ * * --gaffney-svg-moon-fill-2 (default: #ff0)
+ *
+ * Define these variables at any level to change the color of the SVG.
+ *
+ * @param  {Object} options
+ *   Object of options
+ * @param  {string} options.d
+ *   The d attribute value of an `svg path` (crescent shape to circle)
+ * @param  {number} options.size
+ *   The size of the viewBox
+ * @return {Object}
+ *   The svg and path elements as properties in an object `{svg, path}`
+ */
+const svgElement = ({d = &apos;&apos;, size = 60}) =&gt; {
+  const svg = createElementNS(&apos;svg&apos;)
+  const g = createElementNS(&apos;g&apos;)
+  const circle = createElementNS(&apos;circle&apos;)
+  const path = createElementNS(&apos;path&apos;)
+  // SVG
+  setAttributeNS(svg, &apos;viewBox&apos;, `0 0 ${size} ${size}`)
+  // Group
+  setAttributeNS(g, &apos;stroke&apos;, `var(--gaffney-svg-moon-fill-0, #000)`)
+  setAttributeNS(g, &apos;stroke-width&apos;, 1)
+  setAttributeNS(g, &apos;stroke-location&apos;, &apos;inside&apos;)
+  // Circle
+  setAttributeNS(circle, &apos;cx&apos;, size / 2)
+  setAttributeNS(circle, &apos;cy&apos;, size / 2)
+  setAttributeNS(circle, &apos;r&apos;, size / 2)
+  setAttributeNS(circle, &apos;fill&apos;, &apos;var(--gaffney-svg-moon-fill-1, #000)&apos;)
+  setAttributeNS(circle, &apos;vector-effect&apos;, &apos;non-scaling-stroke&apos;)
+  // Path
+  setAttributeNS(path, &apos;d&apos;, d)
+  setAttributeNS(path, &apos;fill&apos;, &apos;var(--gaffney-svg-moon-fill-2, #ff0)&apos;)
+  setAttributeNS(path, &apos;vector-effect&apos;, &apos;non-scaling-stroke&apos;)
+
+  svg.appendChild(g)
+  g.appendChild(circle)
+  g.appendChild(path)
+  return {
+    svg,
+    path
+  }
+}
+
+export {svgString, svgElement, crescentShape, setAttributeNS}
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.0.4)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

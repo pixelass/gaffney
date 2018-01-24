@@ -4,12 +4,17 @@
 
 ## Status: active development (prototype port)
 
-Prototype: [Codepen Prototpe](https://codepen.io/pixelass/pen/baybqZ)
+Prototype: [Codepen Prototype](https://codepen.io/pixelass/pen/baybqZ)
+
+## Demo / Documentation
+
+[Demo](https://pixelass.github.io/gaffney)
+[Documentation](https://pixelass.github.io/gaffney/api)
 
 ## Why the name Gaffney?
 
 [Vince Gaffney](https://twitter.com/gaffney_v) led the archeological team that
-discovered the first calendar made by human kind, a calender based on the moon.
+discovered the first calendar made by human kind, a calendar based on the moon.
 
 > The pits were dug in the shapes of various phases of the moon. "Waxing, waning,
 > crescents, and gibbous, they're all there and arranged in a 50-meter-long (164-foot) arc.  
