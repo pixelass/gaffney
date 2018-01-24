@@ -30,19 +30,17 @@ const XMLNS = 'http://www.w3.org/2000/svg'
  *   as properties in an object `{d, size}`
  */
 const crescentShape = ({progress = 0, size = 60}) => {
-  const defaultRadius = 30
   const sH = size / 2
   const sQ = size / 4
-  const p = (sQ + progress / defaultRadius * sH) % sH
-  const r2 = p * 2
-  const r = abs(sH - r2)
+  // based on 30 steps
+  const r2 = ((progress / 30 * sH) % sH) * 2
   // Create d attribute value.
   // One side is a perfect circle while the other side approaches to create a
   // full moon and new moon in alternating order
   // prettier-ignore
   const d = [
     'M', sH, 0,
-    'A', r2 < sQ * 3 ? r - sQ : sQ - r, sQ,
+    'A', sQ - abs(sH - r2), sQ,
     0, 1, floor(r2 / sQ) % 2,
     sH, size, sQ, sQ,
     0, 1, 1 - floor(r2 / sH),
