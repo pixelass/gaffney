@@ -1,4 +1,5 @@
-const xmlns = 'http://www.w3.org/2000/svg'
+/* global document */
+const XMLNS = 'http://www.w3.org/2000/svg'
 
 /**
  * Creates a cresent path for the moon svg.
@@ -60,7 +61,7 @@ const crescentShape = ({progress = 0, size = 60}) => {
  */
 const svgString = ({d = '', size = 60}) =>
   `
-<svg xmlns="${xmlns}" viewBox="0 0 ${size} ${size}">
+<svg xmlns="${XMLNS}" viewBox="0 0 ${size} ${size}">
   <g stroke="var(--gaffney-svg-moon-fill-0, #000)"
      stroke-width="1"
      stroke-location="inside">
@@ -92,6 +93,7 @@ const svgString = ({d = '', size = 60}) =>
  *   The value of the attribute
  */
 const setAttributeNS = (el, k, v) => el.setAttributeNS(null, k, v)
+
 /**
  * Laszy SVG element creator
  *
@@ -100,7 +102,7 @@ const setAttributeNS = (el, k, v) => el.setAttributeNS(null, k, v)
  * @return {SVGElement}
  *   A valid SVG element
  */
-const createElementNS = el => document.createElementNS(xmlns, el)
+const createElementNS = el => document.createElementNS(XMLNS, el)
 
 /**
  * Creates an SVG as a DOM element. Requires `document`.
