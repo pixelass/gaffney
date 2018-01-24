@@ -1,7 +1,7 @@
-const date = (...args) => new Date(...args)
+const date = (...args) => args.length === 3 ? new Date(args[0], args[1] - 1, args[2]) : new Date(...args)
 const getTime = (...args) => date(...args).getTime()
 const getDate = (...args) => date(...args).getDate()
-const getMonth = (...args) => date(...args).getMonth()
+const getMonth = (...args) => date(...args).getMonth() + 1
 const getFullYear = (...args) => date(...args).getFullYear()
 const getDay = (...args) => date(...args).getDay()
 
@@ -48,10 +48,10 @@ const dayNames = [
  *   The nth day in the week (zero based).
  */
 const getMonday = () => {
-  const today = new Date()
+  const today = date()
   const day = getDay()
   const diff = getDate() - day + (day == 0 ? -6 : 1)
-  return new Date(today.setDate(diff)).getDay()
+  return getDay(diff)
 }
 
 // Ensure correct monday for timezone
@@ -85,4 +85,4 @@ const days = {
   initial: dayNames.map(x => x[0])
 }
 
-export {date, getDate, getDay, getMonth, getFullYear, months, days}
+export {date, getDate, getDay, getMonth, getFullYear, getTime, months, days}
