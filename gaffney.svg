@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <g stroke="#0b0065" stroke-width="1" stroke-location="inside">
+    <circle cx="60" cy="60" r="60" fill="#0b0065" vector-effect="non-scaling-stroke">
+    </circle>
+    <path d="M 60 0 A 16 30 0 1 0 60 120 30 30 0 1 1 60 0" fill="var(--gaffney-svg-moon-fill-2, #e4b36c)" vector-effect="non-scaling-stroke">
+    </path>
+  </g>
+</svg>
