@@ -1,4 +1,17 @@
 /* global document */
+/**
+ * SVG tools for Gaffney
+ * @file svg/src/index.js
+ * @author Gregor Adams <greg@pixelass.com>
+ */
+
+import {abs, floor} from '@gaffney/utils'
+
+/**
+ * XML namespace for SVG elements
+ *
+ * @type {string}
+ */
 const XMLNS = 'http://www.w3.org/2000/svg'
 
 /**
@@ -17,10 +30,12 @@ const XMLNS = 'http://www.w3.org/2000/svg'
  *   as properties in an object `{d, size}`
  */
 const crescentShape = ({progress = 0, size = 60}) => {
-  const r2 = progress * 2
+  const defaultRadius = 30
   const sH = size / 2
   const sQ = size / 4
-  const r = Math.abs(sH - r2)
+  const p = (sQ + progress / defaultRadius * sH) % sH
+  const r2 = p * 2
+  const r = abs(sH - r2)
   // Create d attribute value.
   // One side is a perfect circle while the other side approaches to create a
   // full moon and new moon in alternating order
@@ -28,9 +43,9 @@ const crescentShape = ({progress = 0, size = 60}) => {
   const d = [
     'M', sH, 0,
     'A', r2 < sQ * 3 ? r - sQ : sQ - r, sQ,
-    0, 1, Math.floor(r2 / sQ) % 2,
+    0, 1, floor(r2 / sQ) % 2,
     sH, size, sQ, sQ,
-    0, 1, 1 - Math.floor(r2 / sH),
+    0, 1, 1 - floor(r2 / sH),
     sH, 0
   ].join(' ')
 
@@ -85,7 +100,7 @@ const svgString = ({d = '', size = 60}) =>
 /**
  * Lazy attribute setter for SVG elements.
  *
- * @param  {Function} el
+ * @param  {SVGElement} el
  *   A valid SVG element
  * @param  {string}   k
  *   The name of the attribute
