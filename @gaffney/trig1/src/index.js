@@ -11,7 +11,7 @@ const trig1 = (year, month, day) => {
   const K0 = floor((year - 1900) * 12.3685)
   const T = (year - 1899.5) / 100
   const T2 = T * T
-  T3 = T * T * T
+  const T3 = T * T * T
   const J0 = 2415020 + 29 * K0
   const F0 =
     0.0001178 * T2 -
