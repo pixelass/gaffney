@@ -6,13 +6,13 @@
  */
 
 import {abs, floor} from '@gaffney/utils'
-
+import {XMLNS} from './constants'
+export {default as ZODIAC_SIGNS} from './zodiac-signs'
 /**
  * XML namespace for SVG elements
  *
  * @type {string}
  */
-const XMLNS = 'http://www.w3.org/2000/svg'
 
 /**
  * Creates a cresent path for the moon svg.
@@ -166,4 +166,4 @@ const svgElement = ({d = '', size = 60}) => {
   }
 }
 
-export {svgString, svgElement, crescentShape, setAttributeNS}
+export {svgString, svgElement, crescentShape, setAttributeNS, XMLNS}
