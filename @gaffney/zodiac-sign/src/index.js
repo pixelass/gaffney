@@ -1,11 +1,11 @@
-import {leftPad as pad, parseInteger} from '@gaffney/utils'
-import {getMonth, getDay} from '@gaffney/date'
+import {leftPad as pad, parseInteger as int} from '@gaffney/utils'
+import {getMonth, getDate} from '@gaffney/date'
 
 const zodiacSign = (...date) => {
   let sign = ''
   const month = getMonth(...date) + 1
   const day = getDate(...date)
-  const mdd = parseInteger(month + pad(day, 2))
+  const mdd = int(month + pad(day, 2))
   if (mdd < 120) {
     sign = 'capricorn'
   } else if (mdd < 218) {
@@ -35,3 +35,5 @@ const zodiacSign = (...date) => {
   }
   return sign
 }
+
+export default zodiacSign
