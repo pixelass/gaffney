@@ -2,6 +2,7 @@ import trig1 from '@gaffney/trig1'
 import trig2 from '@gaffney/trig2'
 import conway from '@gaffney/conway'
 import simple from '@gaffney/simple'
+import zodiac from '@gaffney/zodiac-sign'
 
 const defaultOptions = {}
 
@@ -27,6 +28,10 @@ class Gaffney {
 
   simple(...args) {
     return simple(...args)
+  }
+
+  zodiac(...args) {
+    return zodiac(...args)
   }
 }
 
