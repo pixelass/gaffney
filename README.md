@@ -8,8 +8,10 @@ Prototype: [Codepen Prototype](https://codepen.io/pixelass/pen/baybqZ)
 
 ## Demo / Documentation
 
-[Demo](https://pixelass.github.io/gaffney)
-[Documentation](https://pixelass.github.io/gaffney/api)
+* [Demo](https://pixelass.github.io/gaffney)
+* [Documentation](https://pixelass.github.io/gaffney/api)
+
+<p align="center"><img src="https://cdn.rawgit.com/pixelass/gaffney/master/calendar.svg" alt="gaffney calendar january 2018" width="200"/></p>
 
 ## Why the name Gaffney?
 
