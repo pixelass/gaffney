@@ -81,10 +81,19 @@ import {
   zodiacSign as zodiac
 } from '@gaffney/svg'
 
-const lunarCalendar = new Gaffney()
+const calendar = new Gaffney()
 
-const moonPhase = calendar.trig2(2018, 4, 20)
-const zodiacPhase = calendar.zodiac(2018, 4, 20)
-const svgMoon = moon(crescent({progress: moonPhase}))
-const svgZodiac = zodiac(zodiacPhase)
+const svgMoon = moon(crescent({
+  progress: calendar.trig2(2018, 4, 20)
+}))
+const svgZodiac = zodiac[calendar.zodiac(2018, 4, 20)]
 ```
+
+## Credits
+
+* zodiac icons designed by [Dario Ferrando from Flaticon](https://www.flaticon.com/authors/dario-ferrando)
+* moon-phase functions are ripped/inspired/ported from [Ben Danglish](http://www.ben-daglish.net/moon.shtml)
+
+## Similar projects
+
+* https://github.com/tingletech/moon-phase (I got some helpful links from this repo)
