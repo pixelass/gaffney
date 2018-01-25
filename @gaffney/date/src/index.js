@@ -1,4 +1,7 @@
-const date = (...args) => args.length === 3 ? new Date(args[0], args[1] - 1, args[2]) : new Date(...args)
+const date = (...args) =>
+  args.length === 3
+    ? new Date(args[0], args[1] - 1, args[2])
+    : new Date(...args)
 const getTime = (...args) => date(...args).getTime()
 const getDate = (...args) => date(...args).getDate()
 const getMonth = (...args) => date(...args).getMonth() + 1
